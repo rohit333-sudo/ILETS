@@ -1,9 +1,13 @@
 
 import './App.css';
-
+// import Nabvar from './components/Nabvar';
+import Nav from './components/Nav';
 function App() {
   return (
-     <h1>hello world</h1>
+     <>
+     {/* <Nabvar></Nabvar> */}
+     <Nav></Nav>
+     </>
   );
 }
 
